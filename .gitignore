@@ -1,0 +1,14 @@
+.idea/
+venv/
+.notes.md
+.DS_Store
+
+app/__pycache__/__init__.cpython-311.pyc
+
+app/extensions/__pycache__/__init__.cpython-311.pyc
+
+app/extensions/__pycache__/checkbox.cpython-311.pyc
+
+app/extensions/__pycache__/radio.cpython-311.pyc
+
+app/extensions/__pycache__/textbox.cpython-311.pyc
