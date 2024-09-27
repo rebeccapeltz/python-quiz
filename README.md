@@ -65,14 +65,14 @@ To generate quizzes run `python quiz-generator.py`.  Markdown in the markdown-qu
 
 ## Serving Quizzes
 
-The index.html* file should be served.  You can start a local server to manually test your quizzes.  You must manually enter the quiz into the `index.html` file.  Style to `index.html` file as needed.  You can add a quiz to the list of quizzes.
+The `markdown-quiz-generator/index.html` file should be served.  You can start a local server to manually test your quizzes.  You must manually enter the quiz into the `index.html` file.  Style `index.html` file as needed.  You can add a quiz to the list of quizzes.
 
 ```html
 <div class="container">
         <div class="form-row">
             <div class="container">
                 <h1>Python Quizzes</h1>
-                <div><a href="./generated-quizzes/module1.html">Module 1</a></div>
+                <div><a href="./module1.html">Module 1</a></div>
                 <!-- add links to quizzes here -->
             </div>
         </div>
