@@ -8,7 +8,9 @@ I acknowledge the source of this code by including the original License in this 
 
 Install Python and the pip package manager. Once python is installed you can install the libraries using the requirements.txt.
 
-`pip install -r requirements.txt`
+I'm using `python3` and `pip3` because I'm working on a Mac with python installed using Homebrew.
+
+`pip3 install -r requirements.txt`
 
 If you're using a virtual environment you can execute these commands:
 
@@ -18,6 +20,7 @@ source <name of environment>/bin/activate
 pip install -r requirements
 ```
 
+To deactivate venv, `deactivate <name of venv>
 
 ## Quiz structure (Markdown) 
 Although it is based on markdown for its style format, at the moment the following types of questions are supported:
@@ -61,7 +64,7 @@ The application will generate all the **.md** (Markdown) files that are inside t
 
 You can add as many as Markdown files you want, and each of them will generate a separate quiz.
 
-To generate quizzes run `python quiz-generator.py`.  Markdown in the markdown-quiz-files will be converted to HTML in the `generated-quizzes`directory.
+To generate quizzes run `python3 quiz-generator.py`.  Markdown in the markdown-quiz-files will be converted to HTML in the `generated-quizzes`directory.
 
 ## Serving Quizzes
 
