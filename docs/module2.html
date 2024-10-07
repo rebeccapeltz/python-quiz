@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" type="image/png" href="python.png" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        code {color: green}
+        code, pre {
+            font-family: monospace;
+        }
+        h1 code,
+        h2 code,
+        h3 code,
+        h4 code,
+        h5 code,
+        h6 code {
+            font-size: inherit;
+        }
+        ul li {
+            list-style-type: none;
+        }
+        table {
+        @extend .table;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="row p-3"><a class="btn btn-link"git  href="./index.html">Return to home page</a></div>
+<div class="container">
+    <div class="form-row">
+        <div class="container">
+            <h1>Python Quiz: Module 2</h1>
+<hr>
+<ol>
+<li>Which of the following code snippets will raise an error message assuming no variable assignments?<ul class="radio-list">
+<li><label><input type="radio" data-question="1" data-content="0" /> A. <code>print("Hello " + "Friend")</code></label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> B. <code>print('Hello','Friend')</code></label></li>
+<li><label><input type="radio" data-question="0" data-content="1" /> C. <code>print("Hello", Friend)</code></label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> D. <code>print("Hello, 'Friend'")</code></label></li>
+</ul>
+</li>
+<li>The variables product and cost have been assigned values using this code:         <code>product:str = 'apple'</code><br>
+<code>cost:float = 1.39</code><br>
+Which of the follow code snippets will raise and error message?<ul class="radio-list">
+<li><label><input type="radio" data-question="1" data-content="0" /> A. <code>print(product, cost)</code></label></li>
+<li><label><input type="radio" data-question="0" data-content="1" /> B. <code>print(product + cost)</code></label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> C. <code>print(product + str(cost))</code></label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> D. <code>print(product, 'costs', cost)</code></label></li>
+</ul>
+</li>
+<li>What type of error generated in question 2 above?<ul class="radio-list">
+<li><label><input type="radio" data-question="1" data-content="0" /> A. IndentationError</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> B. ValueError</label></li>
+<li><label><input type="radio" data-question="0" data-content="1" /> C. TypeError</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> D. SyntaxError</label></li>
+</ul>
+</li>
+<li>Based on the variables created in question 2, which of the four ways to format output is used to generate <strong>This apple costs $1.39.</strong>: <br>
+<code>print(f'This {product} costs ${cost:.2f}.')</code>?<ul class="radio-list">
+<li><label><input type="radio" data-question="1" data-content="0" /> A. Formatting with a <code>%</code> operator</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> B. Formatting with <code>.format()</code></label></li>
+<li><label><input type="radio" data-question="0" data-content="1" /> C. Formatting with and f-string</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> D. Formatting with concatenation</label></li>
+</ul>
+</li>
+<li>Based on the variables created in question 2, which of the four ways to format output is used to generate <strong>This apple costs $1.39.</strong>:<br>
+<code>print("This {} costs ${:.2f}.".format(product,cost))</code>?<ul class="radio-list">
+<li><label><input type="radio" data-question="1" data-content="0" /> A. Formatting with a <code>%</code> operator</label></li>
+<li><label><input type="radio" data-question="0" data-content="1" /> B. Formatting with <code>.format()</code></label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> C. Formatting with and f-string</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> D. Formatting with concatenation</label></li>
+</ul>
+</li>
+<li>What is the purpose of the backslash in this code: <code>print('I\'m enjoying Python.')</code>?<ul class="radio-list">
+<li><label><input type="radio" data-question="1" data-content="0" /> A. English contractions require a backslash in Python</label></li>
+<li><label><input type="radio" data-question="0" data-content="1" /> B. When you enclose a string with single quotes you must escape apostrophes because they will be interpreted as quotes</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> C. Python strings that include an apostrophe must place a backslash in front of it</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> D. Backslashes make code look cleaner</label></li>
+</ul>
+</li>
+<li>Which characters  can be used to render single quotes, double quotes, newline and tab characters without using a backslash?<ul class="checklist">
+<li><label><input type="checkbox" data-question="0" data-content="1" /> A. """</label></li>
+<li><label><input type="checkbox" data-question="1" data-content="0" /> B. &amp;&amp;&amp;</label></li>
+<li><label><input type="checkbox" data-question="1" data-content="0" /> C. +++</label></li>
+<li><label><input type="checkbox" data-question="0" data-content="1" /> D. '''</label></li>
+</ul>
+</li>
+<li>Using three string variables, <strong>name, address, phone</strong>, have been defined and there is a variable <strong>file_ref</strong> that points to an open file, which code snippets below will NOT be helpful in creating a CSV file?<ul class="checklist">
+<li><label><input type="checkbox" data-question="1" data-content="0" /> A. <code>file_ref.write("{},{},{}\n".format(name,address,phone))</code></label></li>
+<li><label><input type="checkbox" data-question="1" data-content="0" /> B. <code>file_ref.write(f"{name},{address},{phone}\n")</code></label></li>
+<li><label><input type="checkbox" data-question="0" data-content="1" /> C. <code>file_ref.write(name + address + phone + "\n")</code></label></li>
+<li><label><input type="checkbox" data-question="0" data-content="1" /> D. <code>file_ref.write(name,address,phone,sep=',',"\n")</code></label></li>
+</ul>
+</li>
+<li>Given code that sets the value of <strong>val</strong>, <code>val: float = 1000/3*2</code>, what is the number returned by this code: <code>print(1000/3*2:.2f)</code>?<ul class="radio-list">
+<li><label><input type="radio" data-question="0" data-content="1" /> A. 1666.67</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> B. 1666.6666666666665</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> C. 1666.00</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> D. 1700.00</label></li>
+</ul>
+</li>
+<li>What output is expected and why, when running the following code:<br>
+<code>msg: str</code><br>
+<code>msg += "hello"</code><br>
+<code>print(msg)</code>  <ul class="radio-list">
+<li><label><input type="radio" data-question="1" data-content="0" /> A. no output because <code>msg</code> is not assigned a value</label></li>
+<li><label><input type="radio" data-question="0" data-content="1" /> B. NameError because <code>msg</code> was not defined when string concatenation was attempted</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> C. <strong>hello</strong> was printed because <code>msg</code> contained "hello" before <code>print</code> was called</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> D. SyntaxError because the <code>+=</code> operator can only be used with numbers</label></li>
+</ul>
+</li>
+</ol>
+        </div>
+    </div>
+    <div id="tg-msg" class="alert" role="alert" style="display: none">
+        <span id="tg-correct-questions"></span> Correct! <br /><b>Rating: <span id="tg-score"></span>%</b>
+    </div>
+    <div class="row">
+        <button id="check-questions" class="btn btn-lg btn-success">Check</button>
+        <button id="reset-questions" class="btn btn-link">Reset All</button>
+    </div>
+    <script type="text/javascript">$(function(){
+    $('ul.radio-list,ul.checklist,ul.textbox').each(function(i, el){
+        var questionClass = $(this).attr('class');
+        $(this).parent().addClass('question-row').addClass(questionClass);
+        if (questionClass=='radio-list') {
+            $(this).find('input[type="radio"]').attr('name', 'radio-question-' + i);
+        }
+    });
+
+    function checkQuestion() {
+        resetQuestions(true);
+        var questions = $('li.question-row');
+        var total_questions = questions.length;
+        var correct = 0;
+
+        questions.each(function(i, el) {
+            var self = $(this);
+            // Single Question.
+            if (self.hasClass('radio-list')) {
+                if (self.find('input[type="radio"][data-content="1"]:checked').length == 1) {
+                    correct += 1;
+                } else {
+                    self.addClass('text-danger');
+                }
+            }
+            // Textbox Question.
+            if(self.hasClass('textbox')) {
+                var textbox = self.find('input[type="text"]');
+                var correct_text = String(textbox.data("content")).trim().split("").reverse().join("");
+                if(String(textbox.val()).trim().toLowerCase()==correct_text.toLowerCase()) {
+                    correct += 1;
+                } else {
+                    self.addClass('text-danger');
+                    textbox.parent().find("i.text-correct").html(correct_text);
+                }
+            }
+            // Multiple selection Questions.
+            if(self.hasClass('checklist')) {
+                var total_corrects = self.find('input[type="checkbox"][data-content="1"]').length;
+                var total_incorrects = self.find('input[type="checkbox"][data-content="0"]').length;
+                var correct_selected = self.find('input[type="checkbox"][data-content="1"]:checked').length;
+                var incorrect_selected = self.find('input[type="checkbox"][data-content="0"]:checked').length;
+                var qc = +((correct_selected / total_corrects) - (incorrect_selected/total_incorrects)).toFixed(2);
+                if (qc < 0) {
+                    qc = 0;
+                }
+                correct += qc;
+                if (qc == 0) {
+                    self.addClass('text-danger');
+                } else if (qc > 0 && qc < 1) {
+                    self.addClass('text-warning');
+                }
+            }
+        });
+
+        showScore(correct, total_questions);
+    }
+
+    function showScore(correct, total) {
+        var score = (correct / total).toFixed(2) * 100;
+        var msgClass = 'alert-danger';
+        if (score >= 70) {
+            msgClass = 'alert-success';
+        } else if (score >= 50) {
+            msgClass = 'alert-warning';
+        }
+        $('#tg-correct-questions').text(correct + ' out of ' + total);
+        $('#tg-score').text(score);
+        $('#tg-msg').addClass(msgClass).show();
+    }
+    function resetQuestions(keep) {
+        $('li.question-row').removeClass('text-danger').removeClass('text-warning');
+        $('i.text-correct').html('');
+        $('#tg-msg').removeClass('alert-danger').removeClass('alert-success').removeClass('alert-warning').hide();
+        if(keep === true) {
+            return;
+        }
+        $('li.question-row').find('input[type="text"]').val('');
+        $('li.question-row').find('input[type="radio"],input[type="checkbox"]').prop('checked', false);
+    }
+    $('#check-questions').on('click', checkQuestion);
+    $('#reset-questions').on('click', resetQuestions);
+
+});</script>
+</div>
+</body>
+</html>
