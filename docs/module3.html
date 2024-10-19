@@ -38,70 +38,106 @@
 <div class="container">
     <div class="form-row">
         <div class="container">
-            <h1>Python Quiz: Module 1</h1>
+            <h1>Python Quiz: Module 3</h1>
 <hr>
 <ol>
-<li>Which of the following values are strings?<ul class="checklist">
-<li><label><input type="checkbox" data-question="0" data-content="1" /> A. "Python"</label></li>
-<li><label><input type="checkbox" data-question="1" data-content="0" /> B. 200</label></li>
-<li><label><input type="checkbox" data-question="1" data-content="0" /> C. 10.5</label></li>
-<li><label><input type="checkbox" data-question="0" data-content="1" /> D. 'Hello'</label></li>
+<li>Which of the following is NOT a Python Coding Standard?<ul class="radio-list">
+<li><label><input type="radio" data-question="1" data-content="0" /> A. Python code should be indented 4 spaces.</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> B. Comments should be clear, concise, and meaningful.</label></li>
+<li><label><input type="radio" data-question="0" data-content="1" /> C. Python scripts should contain at least 100 lines of code.</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> D. Each line of code should be no longer than 79 characters.</label></li>
 </ul>
 </li>
-<li>Which of the following code snippets creates a reference to a constant string value?<ul class="radio-list">
-<li><label><input type="radio" data-question="1" data-content="0" /> A. <code>LANGUAGE_VERSION: float = 3.12</code> </label></li>
-<li><label><input type="radio" data-question="1" data-content="0" /> B. <code>MAX_VALUE: int = 100</code> </label></li>
-<li><label><input type="radio" data-question="0" data-content="1" /> C. <code>SCHOOL: str = 'University of Washington'</code></label></li>
-<li><label><input type="radio" data-question="1" data-content="0" /> D. <code>YES: bool = True</code></label></li>
+<li>Which of the following are IDEs?<ul class="checklist">
+<li><label><input type="checkbox" data-question="0" data-content="1" /> A. Jupyter Notebook and Lab</label></li>
+<li><label><input type="checkbox" data-question="0" data-content="1" /> B. Idle</label></li>
+<li><label><input type="checkbox" data-question="1" data-content="0" /> C. Microsoft Word</label></li>
+<li><label><input type="checkbox" data-question="0" data-content="1" /> D. Pycharm</label></li>
 </ul>
 </li>
-<li>A constant can be reassigned a value in Python.<ul class="radio-list">
+<li>Executing a script containing just pseduo code will produce the same results as Python in your IDE.<ul class="radio-list">
+<li><label><input type="radio" data-question="1" data-content="0" /> True</label></li>
+<li><label><input type="radio" data-question="0" data-content="1" /> False</label></li>
+</ul>
+</li>
+<li><code>x = True</code> produces the same result as <code>x == True</code> in your Python script.<ul class="radio-list">
+<li><label><input type="radio" data-question="1" data-content="0" /> True</label></li>
+<li><label><input type="radio" data-question="0" data-content="1" /> False</label></li>
+</ul>
+</li>
+<li>The following code will produce an error:<br>
+<code>name:str</code><br>
+<code>print(name)</code>  <ul class="radio-list">
 <li><label><input type="radio" data-question="0" data-content="1" /> True</label></li>
 <li><label><input type="radio" data-question="1" data-content="0" /> False</label></li>
 </ul>
 </li>
-<li>What is the output of this code: <code>name: str = input('Enter your name:')</code>?  <ul class="radio-list">
-<li><label><input type="radio" data-question="0" data-content="1" /> A. Enter your name:</label></li>
-<li><label><input type="radio" data-question="1" data-content="0" /> B. Enter your name</label></li>
-<li><label><input type="radio" data-question="1" data-content="0" /> C. Input Enter your name:</label></li>
-<li><label><input type="radio" data-question="1" data-content="0" /> D. What is your name?</label></li>
+<li>The following code will produce an error: <br>
+<code>name:str = str()</code><br>
+<code>print(name)</code>  <ul class="radio-list">
+<li><label><input type="radio" data-question="1" data-content="0" /> True</label></li>
+<li><label><input type="radio" data-question="0" data-content="1" /> False</label></li>
 </ul>
 </li>
-<li>What is the output of <code>print(name)</code> after the user responds to the code in Question 4?<ul class="radio-list">
-<li><label><input type="radio" data-question="1" data-content="0" /> A. name</label></li>
-<li><label><input type="radio" data-question="1" data-content="0" /> B. string</label></li>
-<li><label><input type="radio" data-question="0" data-content="1" /> C. a value entered by the user</label></li>
-<li><label><input type="radio" data-question="1" data-content="0" /> D. the number of characters entered by the user</label></li>
+<li>What will be the output of executing the following code: 
+    <pre><code>
+    name: str = 'John'
+    name = name.upper() 
+    if (name == 'John'):
+        print('John') 
+    else:
+        print(name)
+    </code></pre><ul class="radio-list">
+<li><label><input type="radio" data-question="1" data-content="0" /> A. john</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> B. John</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> C. JohN</label></li>
+<li><label><input type="radio" data-question="0" data-content="1" /> D. JOHN</label></li>
 </ul>
 </li>
-<li>If the value of first_name is "Santa" and the value of last_name is "Clause", what is the output of <code>print(last_name, first_Name)</code> ? <ul class="radio-list">
-<li><label><input type="radio" data-question="1" data-content="0" /> A. Santa</label></li>
-<li><label><input type="radio" data-question="0" data-content="1" /> B. Clause Santa</label></li>
-<li><label><input type="radio" data-question="1" data-content="0" /> C. Clause</label></li>
-<li><label><input type="radio" data-question="1" data-content="0" /> D. Santa Clause</label></li>
+<li>What will be the output of the following code?
+    <pre><code>
+    my_object_1 = None
+    my_object_2 
+    if (my_object_1 == my_object_2):
+            print("Equal")
+    else:
+        print("Not equal")
+    </code></pre><ul class="radio-list">
+<li><label><input type="radio" data-question="1" data-content="0" /> A. Equal  </label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> B. Not equal  </label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> C. TypeError  </label></li>
+<li><label><input type="radio" data-question="0" data-content="1" /> D. Name Error  </label></li>
 </ul>
 </li>
-<li>A constant named GREETING has the value 'Hello'.Write the code that outputs outputs <code>Hello</code>.<ul class="textbox">
-<li><input type="text" data-content=")GNITEERG(tnirp" data-question=")sGsNsIsTsEsEsRsGs(stsnsisrsps" placeholder="Enter the correct answer." class="form-control" />
+<li>What will be the output of the following code?
+<pre><code>
+thing1: str = "abc"
+thing2: str = "wxyz"
+print(thing1 &lt; thing2)
+</code></pre><ul class="radio-list">
+<li><label><input type="radio" data-question="0" data-content="1" /> A. True </label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> B. False </label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> C. abc  </label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> D. xhy  </label></li>
 </ul>
 </li>
-<li>The <code>input</code> command always returns a string.<ul class="radio-list">
-<li><label><input type="radio" data-question="0" data-content="1" /> True</label></li>
-<li><label><input type="radio" data-question="1" data-content="0" /> False</label></li>
+<li>Which operators are overloaded for string?  <ul class="checklist">
+<li><label><input type="checkbox" data-question="0" data-content="1" /> A. +</label></li>
+<li><label><input type="checkbox" data-question="1" data-content="0" /> B. -</label></li>
+<li><label><input type="checkbox" data-question="0" data-content="1" /> C. *</label></li>
+<li><label><input type="checkbox" data-question="1" data-content="0" /> D. %</label></li>
 </ul>
 </li>
-<li>What is the output of <code>print('hello','there')</code><ul class="radio-list">
-<li><label><input type="radio" data-question="1" data-content="0" /> A. Hello There</label></li>
-<li><label><input type="radio" data-question="1" data-content="0" /> B. HelloThere</label></li>
-<li><label><input type="radio" data-question="1" data-content="0" /> C. hellothere</label></li>
-<li><label><input type="radio" data-question="0" data-content="1" /> D. hello there</label></li>
-</ul>
-</li>
-<li>What is the output of <code>print('hello'+'there')</code>?<ul class="radio-list">
-<li><label><input type="radio" data-question="1" data-content="0" /> A. Hello There</label></li>
-<li><label><input type="radio" data-question="1" data-content="0" /> B. HelloThere</label></li>
-<li><label><input type="radio" data-question="0" data-content="1" /> C. hellothere</label></li>
-<li><label><input type="radio" data-question="1" data-content="0" /> D. hello there</label></li>
+<li>
+<p>BONUS Given the code below, choose which statements will show all the methods for a string object.
+<pre><code>
+    thing1: str = "abc"
+</code></pre></p>
+<ul class="checklist">
+<li><label><input type="checkbox" data-question="0" data-content="1" /> A. print(dir(thing1))</label></li>
+<li><label><input type="checkbox" data-question="1" data-content="0" /> B. print(help(thing1))</label></li>
+<li><label><input type="checkbox" data-question="0" data-content="1" /> C. print(help(str))</label></li>
+<li><label><input type="checkbox" data-question="1" data-content="0" /> D. print(dir(str))</label></li>
 </ul>
 </li>
 </ol>

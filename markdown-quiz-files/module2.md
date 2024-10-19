@@ -8,7 +8,7 @@
     - ( ) D. `print("Hello, 'Friend'")`
 2. The variables product and cost have been assigned values using this code:         `product:str = 'apple'`  
 `cost:float = 1.39`  
-Which of the follow code snippets will raise and error message?
+Which of the following code snippets will raise and error message?
     - ( ) A. `print(product, cost)`
     - (x) B. `print(product + cost)`
     - ( ) C. `print(product + str(cost))`
