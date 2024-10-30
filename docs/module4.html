@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" type="image/png" href="python.png" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+       
+        pre code, code {color: green}
+        code, pre {
+            font-family: monospace;
+        }
+        h1 code,
+        h2 code,
+        h3 code,
+        h4 code,
+        h5 code,
+        h6 code {
+            font-size: inherit;
+        }
+        ul li {
+            list-style-type: none;
+        }
+        table {
+        @extend .table;
+        }
+        pre, p {margin-bottom: 0 !important}
+    </style>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="row p-3"><a class="btn btn-link"git  href="./index.html">Return to home page</a></div>
+<div class="container">
+    <div class="form-row">
+        <div class="container">
+            <h1>Python Quiz: Module 4</h1>
+<hr>
+<ol>
+<li>How can the PyCharm debugger help you as a developer?<ul class="checklist">
+<li><label><input type="checkbox" data-question="0" data-content="1" /> A. You can modify program data as the program is running.</label></li>
+<li><label><input type="checkbox" data-question="0" data-content="1" /> B. It allows you to step through your code to verify the flow.</label></li>
+<li><label><input type="checkbox" data-question="1" data-content="0" /> C. It will correct all of your errors.</label></li>
+<li><label><input type="checkbox" data-question="0" data-content="1" /> D. You can see variable reference addresses.</label></li>
+</ul>
+</li>
+<li>Which of the following actions take place when you open a file in write mode?<ul class="checklist">
+<li><label><input type="checkbox" data-question="0" data-content="1" /> A. If the file exists the data in it will be overwritten.</label></li>
+<li><label><input type="checkbox" data-question="0" data-content="1" /> B. If the file doesn't exist, a new one will be created.</label></li>
+<li><label><input type="checkbox" data-question="1" data-content="0" /> C. If the file exists, new data will be written after the existing data.</label></li>
+<li><label><input type="checkbox" data-question="1" data-content="0" /> D. If you have opened a file in write mode, you must close it and reopen it to continue writing to it.</label></li>
+</ul>
+</li>
+<li>Which of the following command will allow you to write data to a file?<ul class="checklist">
+<li><label><input type="checkbox" data-question="1" data-content="0" /> file = open(FILENAME, 'r')</label></li>
+<li><label><input type="checkbox" data-question="0" data-content="1" /> file = open(FILENAME, 'a')</label></li>
+<li><label><input type="checkbox" data-question="1" data-content="0" /> file = open(FILENAME, 'l')</label></li>
+<li><label><input type="checkbox" data-question="0" data-content="1" /> file = open(FILENAME, 'w')</label></li>
+</ul>
+</li>
+<li>If <code>file</code> has been opened in read mode, which of the following will read one line of data at a time<ul class="radio-list">
+<li><label><input type="radio" data-question="1" data-content="0" /> <code>file.append</code></label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> <code>file.readlines</code></label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> <code>file.read</code></label></li>
+<li><label><input type="radio" data-question="0" data-content="1" /> <code>file.readline</code></label></li>
+</ul>
+</li>
+<li>What is the difference between <code>file.read()</code> and <code>file.readlines()</code>?<ul class="radio-list">
+<li><label><input type="radio" data-question="1" data-content="0" /> <code>file.read</code> reads one line at a time and <code>file.readlines()</code> counts the number of lines in the file</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> <code>file.read</code> reads the entire file as a string and <code>file.readlines()</code> counts the number of lines in the file</label></li>
+<li><label><input type="radio" data-question="0" data-content="1" /> <code>file.read</code> reads the entire file as a string and <code>file.readlines()</code> reads the entire file and segregates the file into separate lines</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> <code>file.read</code> reads a line at a time and <code>file.readlines()</code> reads the entire file </label></li>
+</ul>
+</li>
+<li>Using <code>with open("hello.txt") as my_file:</code> guarantees which of the following after the block of code following the <code>:</code> is executed?<ul class="radio-list">
+<li><label><input type="radio" data-question="1" data-content="0" /> The program will automatically exit.</label></li>
+<li><label><input type="radio" data-question="0" data-content="1" /> The file will be automatically closed without writing <code>file.close()</code>.</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> The program will ignore any other command regarding the file.</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> The block of code must contain a <code>file.close()</code> statement.</label></li>
+</ul>
+</li>
+<li>
+<p>Which if the following is a tuple?</p>
+<ul class="radio-list">
+<li><label><input type="radio" data-question="1" data-content="0" /> A. {a: 1, b:2}</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> B. {'a', 1, 'b', 2}</label></li>
+<li><label><input type="radio" data-question="0" data-content="1" /> C. ('a', 1, 'b', 2)</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> D. ['a',1,'b',2]  </label></li>
+</ul>
+</li>
+<li>
+<p>Which if the following is a list?</p>
+<ul class="radio-list">
+<li><label><input type="radio" data-question="1" data-content="0" /> A. {a: 1, b:2}</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> B. {'a', 1, 'b', 2}</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> C. ('a', 1, 'b', 2)</label></li>
+<li><label><input type="radio" data-question="0" data-content="1" /> D. ['a',1,'b',2]   </label></li>
+</ul>
+</li>
+<li>
+<p>Which if the following is a set?</p>
+<ul class="radio-list">
+<li><label><input type="radio" data-question="1" data-content="0" /> A. {a: 1, b:2}</label></li>
+<li><label><input type="radio" data-question="0" data-content="1" /> B. {'a', 1, 'b', 2}</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> C. ('a', 1, 'b', 2)</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> D. ['a',1,'b',2]   </label></li>
+</ul>
+</li>
+<li>
+<p>Which if the following is a dictionary?</p>
+<ul class="radio-list">
+<li><label><input type="radio" data-question="0" data-content="1" /> A. {a: 1, b:2}</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> B. {'a', 1, 'b', 2}</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> C. ('a', 1, 'b', 2)</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> D. ['a',1,'b',2]  </label></li>
+</ul>
+</li>
+<li>
+<p>What is the use case for a tuple?</p>
+<ul class="radio-list">
+<li><label><input type="radio" data-question="1" data-content="0" /> A. Working with a collection of data the needs to be changed frequently.</label></li>
+<li><label><input type="radio" data-question="0" data-content="1" /> B. Working with a collection of data from a database where you need to maintain integrity by enforcing nonmutability.</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> C. Working with a collection of data that must contain unique values.</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> D. Working with a collection of data that must be easy to look up using a unique key.</label></li>
+</ul>
+</li>
+<li>
+<p>What is the use case for a dictionary?</p>
+<ul class="radio-list">
+<li><label><input type="radio" data-question="1" data-content="0" /> A. Working with a collection of data the needs to be changed frequently.</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> B. Working with a collection of data from a database where you need to maintain integrity by enforcing nonmutability.</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> C. Working with a collection of data that must contain unique values.</label></li>
+<li><label><input type="radio" data-question="0" data-content="1" /> D. Working with a collection of data that must be easy to look up using a  unique key.</label></li>
+</ul>
+</li>
+<li>
+<p>What is the use case for a list?</p>
+<ul class="radio-list">
+<li><label><input type="radio" data-question="0" data-content="1" /> A. Working with a collection of data the needs to be changed frequently.</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> B. Working with a collection of data from a database where you need to maintain integrity by enforcing nonmutability.</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> C. Working with a collection of data that must contain unique values.</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> D. Working with a collection of data that must be easy to look up using a  unique key.</label></li>
+</ul>
+</li>
+<li>
+<p>What is the use case for a set?</p>
+<ul class="radio-list">
+<li><label><input type="radio" data-question="1" data-content="0" /> A. Working with a collection of data the needs to be changed frequently.</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> B. Working with a collection of data from a database where you need to maintain integrity by enforcing nonmutability.</label></li>
+<li><label><input type="radio" data-question="0" data-content="1" /> C. Working with a collection of data that must contain unique values.</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> D. Working with a collection of data that must be easy to look up using a  unique key.</label></li>
+</ul>
+</li>
+<li>
+<p>Python strings are mutable.</p>
+<ul class="radio-list">
+<li><label><input type="radio" data-question="1" data-content="0" /> True</label></li>
+<li><label><input type="radio" data-question="0" data-content="1" /> False</label></li>
+</ul>
+</li>
+<li>
+<p>Lists and Tuples are ordered collections.</p>
+<ul class="radio-list">
+<li><label><input type="radio" data-question="0" data-content="1" /> True</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> False</label></li>
+</ul>
+</li>
+</ol>
+        </div>
+    </div>
+    <div id="tg-msg" class="alert" role="alert" style="display: none">
+        <span id="tg-correct-questions"></span> Correct! <br /><b>Rating: <span id="tg-score"></span>%</b>
+    </div>
+    <div class="row">
+        <button id="check-questions" class="btn btn-lg btn-success">Check</button>
+        <button id="reset-questions" class="btn btn-link">Reset All</button>
+    </div>
+    <script type="text/javascript">$(function(){
+    $('ul.radio-list,ul.checklist,ul.textbox').each(function(i, el){
+        var questionClass = $(this).attr('class');
+        $(this).parent().addClass('question-row').addClass(questionClass);
+        if (questionClass=='radio-list') {
+            $(this).find('input[type="radio"]').attr('name', 'radio-question-' + i);
+        }
+    });
+
+    function checkQuestion() {
+        resetQuestions(true);
+        var questions = $('li.question-row');
+        var total_questions = questions.length;
+        var correct = 0;
+
+        questions.each(function(i, el) {
+            var self = $(this);
+            // Single Question.
+            if (self.hasClass('radio-list')) {
+                if (self.find('input[type="radio"][data-content="1"]:checked').length == 1) {
+                    correct += 1;
+                } else {
+                    self.addClass('text-danger');
+                }
+            }
+            // Textbox Question.
+            if(self.hasClass('textbox')) {
+                var textbox = self.find('input[type="text"]');
+                var correct_text = String(textbox.data("content")).trim().split("").reverse().join("");
+                if(String(textbox.val()).trim().toLowerCase()==correct_text.toLowerCase()) {
+                    correct += 1;
+                } else {
+                    self.addClass('text-danger');
+                    textbox.parent().find("i.text-correct").html(correct_text);
+                }
+            }
+            // Multiple selection Questions.
+            if(self.hasClass('checklist')) {
+                var total_corrects = self.find('input[type="checkbox"][data-content="1"]').length;
+                var total_incorrects = self.find('input[type="checkbox"][data-content="0"]').length;
+                var correct_selected = self.find('input[type="checkbox"][data-content="1"]:checked').length;
+                var incorrect_selected = self.find('input[type="checkbox"][data-content="0"]:checked').length;
+                var qc = +((correct_selected / total_corrects) - (incorrect_selected/total_incorrects)).toFixed(2);
+                if (qc < 0) {
+                    qc = 0;
+                }
+                correct += qc;
+                if (qc == 0) {
+                    self.addClass('text-danger');
+                } else if (qc > 0 && qc < 1) {
+                    self.addClass('text-warning');
+                }
+            }
+        });
+
+        showScore(correct, total_questions);
+    }
+
+    function showScore(correct, total) {
+        var score = (correct / total).toFixed(2) * 100;
+        var msgClass = 'alert-danger';
+        if (score >= 70) {
+            msgClass = 'alert-success';
+        } else if (score >= 50) {
+            msgClass = 'alert-warning';
+        }
+        $('#tg-correct-questions').text(correct + ' out of ' + total);
+        $('#tg-score').text(score);
+        $('#tg-msg').addClass(msgClass).show();
+    }
+    function resetQuestions(keep) {
+        $('li.question-row').removeClass('text-danger').removeClass('text-warning');
+        $('i.text-correct').html('');
+        $('#tg-msg').removeClass('alert-danger').removeClass('alert-success').removeClass('alert-warning').hide();
+        if(keep === true) {
+            return;
+        }
+        $('li.question-row').find('input[type="text"]').val('');
+        $('li.question-row').find('input[type="radio"],input[type="checkbox"]').prop('checked', false);
+    }
+    $('#check-questions').on('click', checkQuestion);
+    $('#reset-questions').on('click', resetQuestions);
+
+});</script>
+</div>
+</body>
+</html>
