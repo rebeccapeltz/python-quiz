@@ -55,7 +55,7 @@
 <li><label><input type="checkbox" data-question="1" data-content="0" /> D. If you have opened a file in write mode, you must close it and reopen it to continue writing to it.</label></li>
 </ul>
 </li>
-<li>Which of the following command will allow you to write data to a file?<ul class="checklist">
+<li>Which of the following commands will allow you to write data to a file?<ul class="checklist">
 <li><label><input type="checkbox" data-question="1" data-content="0" /> file = open(FILENAME, 'r')</label></li>
 <li><label><input type="checkbox" data-question="0" data-content="1" /> file = open(FILENAME, 'a')</label></li>
 <li><label><input type="checkbox" data-question="1" data-content="0" /> file = open(FILENAME, 'l')</label></li>
@@ -167,6 +167,25 @@
 <ul class="radio-list">
 <li><label><input type="radio" data-question="0" data-content="1" /> True</label></li>
 <li><label><input type="radio" data-question="1" data-content="0" /> False</label></li>
+</ul>
+</li>
+<li>
+<p>If `data_list = ['a', 'b', 'c'] which of the following will unpack the list?</p>
+<ul class="checklist">
+<li><label><input type="checkbox" data-question="0" data-content="1" /> <code>e,f,g = data_list</code></label></li>
+<li><label><input type="checkbox" data-question="0" data-content="1" /> <code>(e,f,g) = data_list</code></label></li>
+<li><label><input type="checkbox" data-question="1" data-content="0" /> <code>{e,f,g} = data_list</code></label></li>
+<li><label><input type="checkbox" data-question="0" data-content="1" /> <code>[e,f,g] = data_list</code></label></li>
+</ul>
+</li>
+<li>
+<p>If you want to <code>split</code> a string from a CSV file in order to create a <code>list</code>, why
+is it important to <code>strip</code> the string before splitting it?</p>
+<ul class="radio-list">
+<li><label><input type="radio" data-question="1" data-content="0" /> The <code>split</code> function requires that you <code>strip</code> the string first.</label></li>
+<li><label><input type="radio" data-question="0" data-content="1" /> The CSV file will contain a <code>\n</code> at the end of the line and the <code>strip</code> function will remove it before separating the comma separated strings.</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> You must <code>strip</code> all data in order to create a <code>list</code>.</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> There's no need to <code>strip</code> a string unless it contains an extra blank space at the beginning or end of string.</label></li>
 </ul>
 </li>
 </ol>

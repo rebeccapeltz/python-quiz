@@ -11,7 +11,7 @@
     - [x] B. If the file doesn't exist, a new one will be created.
     - [ ] C. If the file exists, new data will be written after the existing data.
     - [ ] D. If you have opened a file in write mode, you must close it and reopen it to continue writing to it.
-3. Which of the following command will allow you to write data to a file?
+3. Which of the following commands will allow you to write data to a file?
     - [ ] file = open(FILENAME, 'r')
     - [x] file = open(FILENAME, 'a')
     - [ ] file = open(FILENAME, 'l')
@@ -86,3 +86,16 @@
 16. Lists and Tuples are ordered collections.
     - (x) True
     - ( ) False
+
+17. If `data_list = ['a', 'b', 'c'] which of the following will unpack the list?
+    - [x] `e,f,g = data_list`
+    - [x] `(e,f,g) = data_list`
+    - [ ] `{e,f,g} = data_list`
+    - [x] `[e,f,g] = data_list`
+
+18. If you want to `split` a string from a CSV file in order to create a `list`, why
+is it important to `strip` the string before splitting it?
+    - ( ) The `split` function requires that you `strip` the string first.
+    - (x) The CSV file will contain a `\n` at the end of the line and the `strip` function will remove it before separating the comma separated strings.
+    - ( ) You must `strip` all data in order to create a `list`.
+    - ( ) There's no need to `strip` a string unless it contains an extra blank space at the beginning or end of string.
