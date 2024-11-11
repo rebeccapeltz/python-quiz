@@ -39,6 +39,7 @@
     <div class="form-row">
         <div class="container">
             <h1>Python Quiz: Module 4</h1>
+<h4>List of Lists</h4>
 <hr>
 <ol>
 <li>How can the PyCharm debugger help you as a developer?<ul class="checklist">
@@ -56,31 +57,31 @@
 </ul>
 </li>
 <li>Which of the following commands will allow you to write data to a file?<ul class="checklist">
-<li><label><input type="checkbox" data-question="1" data-content="0" /> file = open(FILENAME, 'r')</label></li>
-<li><label><input type="checkbox" data-question="0" data-content="1" /> file = open(FILENAME, 'a')</label></li>
-<li><label><input type="checkbox" data-question="1" data-content="0" /> file = open(FILENAME, 'l')</label></li>
-<li><label><input type="checkbox" data-question="0" data-content="1" /> file = open(FILENAME, 'w')</label></li>
+<li><label><input type="checkbox" data-question="1" data-content="0" /> A. file = open(FILENAME, 'r')</label></li>
+<li><label><input type="checkbox" data-question="0" data-content="1" /> B. file = open(FILENAME, 'a')</label></li>
+<li><label><input type="checkbox" data-question="1" data-content="0" /> C. file = open(FILENAME, 'l')</label></li>
+<li><label><input type="checkbox" data-question="0" data-content="1" /> D. file = open(FILENAME, 'w')</label></li>
 </ul>
 </li>
 <li>If <code>file</code> has been opened in read mode, which of the following will read one line of data at a time<ul class="radio-list">
-<li><label><input type="radio" data-question="1" data-content="0" /> <code>file.append</code></label></li>
-<li><label><input type="radio" data-question="1" data-content="0" /> <code>file.readlines</code></label></li>
-<li><label><input type="radio" data-question="1" data-content="0" /> <code>file.read</code></label></li>
-<li><label><input type="radio" data-question="0" data-content="1" /> <code>file.readline</code></label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> A. <code>file.append</code></label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> B. <code>file.readlines</code></label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> C. <code>file.read</code></label></li>
+<li><label><input type="radio" data-question="0" data-content="1" /> D. <code>file.readline</code></label></li>
 </ul>
 </li>
 <li>What is the difference between <code>file.read()</code> and <code>file.readlines()</code>?<ul class="radio-list">
-<li><label><input type="radio" data-question="1" data-content="0" /> <code>file.read</code> reads one line at a time and <code>file.readlines()</code> counts the number of lines in the file</label></li>
-<li><label><input type="radio" data-question="1" data-content="0" /> <code>file.read</code> reads the entire file as a string and <code>file.readlines()</code> counts the number of lines in the file</label></li>
-<li><label><input type="radio" data-question="0" data-content="1" /> <code>file.read</code> reads the entire file as a string and <code>file.readlines()</code> reads the entire file and segregates the file into separate lines</label></li>
-<li><label><input type="radio" data-question="1" data-content="0" /> <code>file.read</code> reads a line at a time and <code>file.readlines()</code> reads the entire file </label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> A. <code>file.read</code> reads one line at a time and <code>file.readlines()</code> counts the number of lines in the file</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> B. <code>file.read</code> reads the entire file as a string and <code>file.readlines()</code> counts the number of lines in the file</label></li>
+<li><label><input type="radio" data-question="0" data-content="1" /> C. <code>file.read</code> reads the entire file as a string and <code>file.readlines()</code> reads the entire file and segregates the file into separate lines</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> D. <code>file.read</code> reads a line at a time and <code>file.readlines()</code> reads the entire file </label></li>
 </ul>
 </li>
 <li>Using <code>with open("hello.txt") as my_file:</code> guarantees which of the following after the block of code following the <code>:</code> is executed?<ul class="radio-list">
-<li><label><input type="radio" data-question="1" data-content="0" /> The program will automatically exit.</label></li>
-<li><label><input type="radio" data-question="0" data-content="1" /> The file will be automatically closed without writing <code>file.close()</code>.</label></li>
-<li><label><input type="radio" data-question="1" data-content="0" /> The program will ignore any other command regarding the file.</label></li>
-<li><label><input type="radio" data-question="1" data-content="0" /> The block of code must contain a <code>file.close()</code> statement.</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> A. The program will automatically exit.</label></li>
+<li><label><input type="radio" data-question="0" data-content="1" /> B. The file will be automatically closed without writing <code>file.close()</code>.</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> C. The program will ignore any other command regarding the file.</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> D. The block of code must contain a <code>file.close()</code> statement.</label></li>
 </ul>
 </li>
 <li>
@@ -172,20 +173,20 @@
 <li>
 <p>If `data_list = ['a', 'b', 'c'] which of the following will unpack the list?</p>
 <ul class="checklist">
-<li><label><input type="checkbox" data-question="0" data-content="1" /> <code>e,f,g = data_list</code></label></li>
-<li><label><input type="checkbox" data-question="0" data-content="1" /> <code>(e,f,g) = data_list</code></label></li>
-<li><label><input type="checkbox" data-question="1" data-content="0" /> <code>{e,f,g} = data_list</code></label></li>
-<li><label><input type="checkbox" data-question="0" data-content="1" /> <code>[e,f,g] = data_list</code></label></li>
+<li><label><input type="checkbox" data-question="0" data-content="1" /> A. <code>e,f,g = data_list</code></label></li>
+<li><label><input type="checkbox" data-question="0" data-content="1" /> B. <code>(e,f,g) = data_list</code></label></li>
+<li><label><input type="checkbox" data-question="1" data-content="0" /> C. <code>{e,f,g} = data_list</code></label></li>
+<li><label><input type="checkbox" data-question="0" data-content="1" /> D. <code>[e,f,g] = data_list</code></label></li>
 </ul>
 </li>
 <li>
 <p>If you want to <code>split</code> a string from a CSV file in order to create a <code>list</code>, why
 is it important to <code>strip</code> the string before splitting it?</p>
 <ul class="radio-list">
-<li><label><input type="radio" data-question="1" data-content="0" /> The <code>split</code> function requires that you <code>strip</code> the string first.</label></li>
-<li><label><input type="radio" data-question="0" data-content="1" /> The CSV file will contain a <code>\n</code> at the end of the line and the <code>strip</code> function will remove it before separating the comma separated strings.</label></li>
-<li><label><input type="radio" data-question="1" data-content="0" /> You must <code>strip</code> all data in order to create a <code>list</code>.</label></li>
-<li><label><input type="radio" data-question="1" data-content="0" /> There's no need to <code>strip</code> a string unless it contains an extra blank space at the beginning or end of string.</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> A. The <code>split</code> function requires that you <code>strip</code> the string first.</label></li>
+<li><label><input type="radio" data-question="0" data-content="1" /> B. The CSV file will contain a <code>\n</code> at the end of the line and the <code>strip</code> function will remove it before separating the comma separated strings.</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> C. You must <code>strip</code> all data in order to create a <code>list</code>.</label></li>
+<li><label><input type="radio" data-question="1" data-content="0" /> D. There's no need to <code>strip</code> a string unless it contains an extra blank space at the beginning or end of string.</label></li>
 </ul>
 </li>
 </ol>

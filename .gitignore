@@ -1,6 +1,6 @@
 .idea/
 venv/
-.notes.md
+mynotes.md
 .DS_Store
 
 app/__pycache__/__init__.cpython-311.pyc
