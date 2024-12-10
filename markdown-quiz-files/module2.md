@@ -1,5 +1,5 @@
 # Python Quiz: Module 2
-#### Formatting and Files
+### Formatting and Files
 ---
 1. Which of the following code snippets will raise an error message assuming no variable assignments?
     - ( ) A. `print("Hello " + "Friend")`

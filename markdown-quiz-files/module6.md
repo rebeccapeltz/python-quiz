@@ -1,6 +1,6 @@
 # Python Quiz: Module 6
 
-#### List of Objects: Object Oriented Programming
+### List of Objects: Object Oriented Programming
 ---
 1. What is OOP encapsulation?
     - (x) A. The packaging together of properties and methods in order to provide controlled access to data.

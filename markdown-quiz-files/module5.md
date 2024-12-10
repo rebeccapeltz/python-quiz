@@ -1,6 +1,6 @@
 # Python Quiz: Module 5
 
-#### List of Dictionaries
+### List of Dictionaries
 ---
 1. Which of the following code snippets describe an ordered collection of data in Python?
     - [x] A. `['d','a','f']`

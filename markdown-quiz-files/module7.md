@@ -1,6 +1,6 @@
 # Python Quiz: Module 7
 
-#### Modularization: Separation of Concerns
+### Separation of Concerns
 ---
 1. Which function definition below produces an instance of a Dog encapsulating breed and color of the dog?
     - ( ) A. `def new_dog(breed:str,color:str):`
@@ -61,3 +61,7 @@
     - [ ] B. Python has a limit on the size of file it can interpret.
     - [x] C. Modularity makes the code more focused and easy to understand.
     - [ ] D. There is a limit to the number of classes you can put into a single file in Python.
+
+11. "Separation of Concerns" is a design principal which dictates that code should be separated into distinct sections based on the functionality it provides.
+    - (x) True
+    - ( ) False
